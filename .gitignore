@@ -1,0 +1,56 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Local uploaded files
+storage/
+
+# Local environment secrets
+.env
+.env.local
+.env.*.local
+
+# Local run logs
+*.out.log
+*.err.log
+*-dev.log
+frontend/*-dev.log
+backend-*.log
+frontend-run.log
+frontend/frontend-*.log
+
+# Local seeded account list
+seed-users.local.txt
+
+# Local modernization assessment reports
+.github/appmod/assessment/reports/

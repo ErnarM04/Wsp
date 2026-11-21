@@ -1,0 +1,5 @@
+services:
+  app:
+    environment:
+      APP_SEED_ENABLED: "true"
+      APP_SEED_CONFIRM_TOKEN: DEMO_ONLY_RESET
